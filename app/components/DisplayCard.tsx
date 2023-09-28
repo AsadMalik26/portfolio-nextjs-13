@@ -5,8 +5,8 @@ import Tilt from 'react-parallax-tilt'
 const DisplayCard = ({ body, picture, title, reverse }: card) => {
   if (reverse) {
     return (
-      <Tilt>
-        <div
+      <>
+        <Tilt
           className='
     border-2 rounded-md m-2 p-2 text-center flex flex-col-reverse gap-2 hover:text-ellipsis
     sm:flex-row-reverse sm:mx-28 sm:border-0 sm:my-5 sm:border-r-4
@@ -27,14 +27,14 @@ const DisplayCard = ({ body, picture, title, reverse }: card) => {
               className='rounded-s-lg justify-center'
             />
           </section>
-        </div>
-      </Tilt>
+        </Tilt>
+      </>
     )
 
   }
   return (
-    <Tilt>
-      <div
+    <>
+      <Tilt
         className='
     border-2 rounded-md m-2 p-2 text-center flex flex-col-reverse gap-2 hover:text-ellipsis
     sm:flex-row sm:mx-28 sm:border-0 sm:my-5 sm:border-l-4
@@ -55,8 +55,8 @@ const DisplayCard = ({ body, picture, title, reverse }: card) => {
             className='rounded-e-lg'
           />}
         </section>
-      </div>
-    </Tilt>
+      </Tilt>
+    </>
   )
 }
 
