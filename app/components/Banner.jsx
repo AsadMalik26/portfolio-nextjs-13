@@ -9,8 +9,16 @@ import Image from "next/image"
 const Banner = ({ }) => {
   return (
     <>
-      <Tilt>
-        <section id="waterHolderold" className='flex flex-col relative items-center justify-center min-h-screen text-center'>
+      <Tilt
+        scale={1.15}
+        className="parallax-effect-glare-scale parallax-effect-img"
+        perspective={500}
+        glareEnable={true}
+        glareMaxOpacity={0.35}
+        // glareColor="red"
+        glarePosition="all"
+      >
+        <section id="waterHolderold" className='inner-element flex flex-col relative items-center justify-center min-h-screen text-center'>
           {/* <div id="waterHolder" className="bg-slate-500 z-10">
             <Image id="rplimg" src={bg} />
           </div> */}
