@@ -10,15 +10,15 @@ const Banner = ({ }) => {
   return (
     <>
       <Tilt
-        scale={1.15}
-        className="parallax-effect-glare-scale parallax-effect-img"
-        perspective={500}
-        glareEnable={true}
-        glareMaxOpacity={0.35}
+        scale={1.05}
+        className="parallax-effect-glare-scale parallax-effect-img m-2"
+        // perspective={500}
+        // glareEnable={true}
+        // glareMaxOpacity={0.35}
         // glareColor="red"
-        glarePosition="all"
+        // glarePosition="all"
       >
-        <section id="waterHolderold" className='inner-element flex flex-col relative items-center justify-center min-h-screen text-center'>
+        <section id="banner" className='inner-element flex flex-col relative items-center justify-center min-h-screen text-center'>
           {/* <div id="waterHolder" className="bg-slate-500 z-10">
             <Image id="rplimg" src={bg} />
           </div> */}
