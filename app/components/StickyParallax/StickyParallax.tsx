@@ -9,7 +9,7 @@ export default function StickyParallax() {
     <div>
       <div className={styles.background} />
 
-      <Parallax pages={5}>
+      {/* <Parallax pages={5}>
         <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
           <p className={styles.scrollText}>Scroll down</p>
         </ParallaxLayer>
@@ -31,7 +31,7 @@ export default function StickyParallax() {
             <p>Neither am I</p>
           </div>
         </ParallaxLayer>
-      </Parallax>
+      </Parallax> */}
     </div>
   )
 }
