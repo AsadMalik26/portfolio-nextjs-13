@@ -1,10 +1,10 @@
 'use client'
-import * as React from 'react'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import React from 'react'
+// import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import styles from './styles.module.css'
 
 export default function StickyParallax() {
-  const alignCenter = { display: 'flex', alignItems: 'center' }
+  // const alignCenter = { display: 'flex', alignItems: 'center' }
   return (
     <div>
       <div className={styles.background} />
