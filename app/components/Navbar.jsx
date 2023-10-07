@@ -10,6 +10,7 @@ const Navbar = ({ }) => {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li><Link to="ingrediants"  smooth={true} duration={500}>Ingrediants</Link></li>
+          <li><Link to="projects"  smooth={true} duration={500}>Projects</Link></li>
           <li><Link to="contact"  smooth={true} duration={500}>Contact</Link></li>
           <li>
             <details>
