@@ -1,10 +1,39 @@
 import Navbar from '@/app/components/Navbar'
 import Banner from '@/app/components/Banner'
 import DisplayCards from '@/app/components/DisplayCards'
+import DisplayCardsProjects from '@/app/components/DisplayCardsProjects'
 import Footer from '@/app/components/Footer'
 import "./globals.css"
 import Image from 'next/image'
 import picture from "@/app/assets/rocket (2).jpg"
+import edugen from "@/app/assets/images/edugen/0.1 EduGen Signup.png"
+import mern from "@/app/assets/images/MERN/MERN.png"
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Asad Saeed || Fullstack Developer || MERN Stack Developer || HTML CSS JavaScript Developer || Strong Knowledge of JavaScript ||Strong Knowledge of React js and Next js || Strong knowledge of Node js and Express js || Proficient and Excellent Developer || Senior Full Stack Developer',
+  keywords: ['Next.js', 'React', 'JavaScript',"HTML","CSS","Tailwind CSS","MUI","Material UI", "Daisy UI", "React Native", "React Native Expo", "Upwork", "Freelancer", "MERN stack developer","Full stack developer", "Node js developer", "Express js Developer","Senior Developer", "Associate",],
+  description: `
+  Experienced MERN Stack Developer | FYP Award Winner | React.js Expert
+Hello! I'm a highly skilled MERN Stack Developer with a passion for crafting cutting-edge web applications. My
+journey started at COMSATS University Lahore Campus, where I honed my skills and graduated with a strong
+foundation in software development. During my academic journey, I didn't just stop at studying; I embarked on a
+part-time role as a MERN Developer to gain hands-on experience in the field.
+One of my proudest achievements was my Final Year Project, which I poured my heart and soul into. It's no
+surprise that it earned me the top prize at the FYP exhibition ceremony, reflecting my commitment to excellence
+and innovation in software development.
+Currently, I am working at Prismatic Technologies as a React.js Developer. My role involves working on a complex
+React application, where I continuously extend features, tackle intricate bugs, and enhance existing functionalities.
+What sets me apart is my unwavering dedication to my tech stack. I'm unbeatable when it comes to mastering and
+utilizing the MERN stack. My in-depth knowledge of React.js allows me to drive projects to successful completion
+with efficiency and precision.
+I'm always on the lookout for new opportunities to contribute my expertise to ambitious teams and projects.
+If you're searching for a passionate and results-driven MERN Stack Developer who thrives in challenging
+environments, feel free to reach out. Let's connect and explore how I can bring value to your organization.
+Email: calltoasad@gmail.com
+#MERNStack #ReactJS #SoftwareDevelopment #Innovation #AwardWinner #ProblemSolver #TechEnthusiast
+  `,
+}
 export default function Home() {
   return (
     <main className='container mx-auto bg-base-100'>
@@ -17,43 +46,7 @@ export default function Home() {
       '>Ingrediants</strong>
       </p>
       <DisplayCards />
-      <section id='projects'>
-        <p className='text-center my-5 mt-10'>
-          <strong className='text-2xl text-center w-full mx-2 bg-clip-text clip text-transparent bg-gradient-to-r hover:bg-gradient-to-l from-pink-500 to-violet-500 font-serif
-      ms:mx-5 sm:mx-10 sm:text-5xl
-      '>Projects</strong>
-        </p>
-        <div className='card
-         border-2 rounded-md m-2 p-2 text-center flex flex-col items-center gap-2 hover:text-ellipsis
-    sm:flex-row sm:mx-28 sm:border-0 sm:my-5 sm:border-r-4'>
-          <section className={'flex-1 rounded-lg flex flex-col gap-2'}>
-            <Image
-              alt='project'
-              src={picture}
-              width={500}
-              height={500}
-              objectFit='contain'
-              className='rounded-lg'
-            />
-          </section>
-          <section className='flex-1 flex flex-col gap-4'>
-            <p>
-              <strong className='text-xl hover:underline underline-offset-4'>
-                EduGen
-              </strong>
-            </p>
-            <p>
-AI-powered platform for educators to create custom academic papers and tests, accessible both on the web and via a mobile app for on-the-go papers generation.</p>
-            <p className='flex gap-2 max-w-full flex-wrap justify-center'>
-              <span className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>JavaScript</span>
-              <span className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>Node js</span>
-              <span className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>Express js</span>
-              <span className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>React js</span>
-              <span className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>Mongo DB</span>
-            </p>
-          </section>
-        </div>
-      </section>
+      <DisplayCardsProjects />
       <Footer />
     </main>
   )

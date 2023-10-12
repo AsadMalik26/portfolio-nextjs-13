@@ -42,21 +42,21 @@ const Navbar = ({ }) => {
           <Link href="https://www.linkedin.com/in/asad-saeed-6362201aa/" target='_blank'>
             <section className='link no-underline flex flex-col justify-center items-center gap-2 p-2 min-w-0 max-w-xl hover:bg-pink-100 border rounded
           sm:flex-row'>
-              <BsLinkedin size={25} key={"BsLinkedin"} text={"hello"} />
+              <BsLinkedin size={25} key={"BsLinkedin"} text={"LinkedIn"} />
               <strong className='text-sm'>LinkedIn</strong>
             </section>
           </Link>
           <Link href="mailto:calltoasad@gmail.com" target='_blank'>
           <section className='link no-underline flex flex-col justify-center items-center gap-2 p-2 min-w-0 max-w-xl hover:bg-pink-100 border rounded
           sm:flex-row'>
-            <HiMail size={25} key={"BsLinkedin"} text={"hello"} />
+            <HiMail size={25} key={"BsLinkedin"} text={"calltoasad@gmail.com"} />
             <strong className='text-sm'>calltoasad@gmail.com</strong>
           </section>
            </Link>
            <Link href="tel:+923061402623">
           <section className='link no-underline flex flex-col justify-center items-center gap-2 p-2 min-w-0 max-w-xl hover:bg-pink-100 border rounded
           sm:flex-row'>
-            <AiTwotonePhone size={25} key={"BsLinkedin"} text={"hello"} />
+            <AiTwotonePhone size={25} key={"BsLinkedin"} text={"+92 306 140 2623"} />
             <strong className='text-sm'>+92 306 140 2623</strong>
           </section>
           </Link>

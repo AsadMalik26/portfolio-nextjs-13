@@ -5,6 +5,7 @@ import Tilt from 'react-parallax-tilt'
 // import { WaterCanvas, WaterModel } from "@/public/watercanvas"
 import Image from "next/image"
 // import Script from "next/script"
+import mern from "@/app/assets/images/MERN/MERN.png"
 
 const Banner = ({ }) => {
   return (
@@ -25,6 +26,7 @@ const Banner = ({ }) => {
           <p className='text-6xl ms:text-8xl sm:text-9xl bg-clip-text clip text-transparent bg-gradient-to-r hover:bg-gradient-to-l from-pink-500 to-violet-500 font-serif'>Asad</p>
           <p className='text-2xl ms:text-3xl bg-clip-text clip text-transparent bg-gradient-to-r hover:bg-gradient-to-l from-violet-500 to-pink-500 font-sans'>Full stack developer</p>
           {/* <p className='absolute bottom-20'>Scroll down</p> */}
+          <Image src={mern} alt='MERN Stack' height={100} />
         </section>
       </Tilt>
       {/* <Script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" />
