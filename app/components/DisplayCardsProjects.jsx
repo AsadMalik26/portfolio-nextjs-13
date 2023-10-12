@@ -1,13 +1,6 @@
 
-import picture from "@/app/assets/pexels-photomix-company-106344.jpg";
-import ppd from "@/app/assets/pixel perfect.jpg";
-import seo from "@/app/assets/seo.jpg";
-import ux from "@/app/assets/ux.jpg";
-import rocket from "@/app/assets/rocket (2).jpg";
-import responsive from "@/app/assets/responsive.jpg";
-import responsive2 from "@/app/assets/reponsive.jpg";
+import edugen from "@/app/assets/images/edugen/01 EduGen Signup.png";
 import DisplayCardProject from "./DisplayCardProject";
-import edugen from "@/app/assets/images/edugen/0.1 EduGen Signup.png"
 const cards_data = [
   {
     title: "EduGen",

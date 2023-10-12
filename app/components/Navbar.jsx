@@ -12,18 +12,6 @@ const Navbar = ({ }) => {
           <li><Link to="ingrediants" smooth={true} duration={500}>Ingrediants</Link></li>
           <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
           <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
-          <li>
-            <details>
-              <summary>
-                Parent
-              </summary>
-
-              <ul className="p-2 bg-base-100">
-                <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
-                <li><a>Link 2</a></li>
-              </ul>
-            </details>
-          </li>
         </ul>
       </div>
       <div className="md:hidden flex-none">

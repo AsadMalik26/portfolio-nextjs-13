@@ -1,9 +1,6 @@
 'use client'
 import Image from 'next/image';
-import picture from "@/app/assets/pexels-photomix-company-106344.jpg";
-import Tilt from 'react-parallax-tilt'
-import edugen from "@/app/assets/images/edugen/0.1 EduGen Signup.png"
-const DisplayCardProject = ({ body, picture, title,tags, reverse }: project) => {
+const DisplayCardProject = ({ body, picture, title, tags, reverse }: project) => {
   return (
     <>
       <div className={`card
@@ -30,9 +27,9 @@ const DisplayCardProject = ({ body, picture, title,tags, reverse }: project) => 
             {body}
           </p>
           <p className='flex gap-2 max-w-full flex-wrap justify-center'>
-          {tags?.map((v,i)=>(
-            <span key={i} className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>{v}</span>
-          ))}
+            {tags?.map((v, i) => (
+              <span key={i} className='btn btn-outline btn-xs ms:btn-xs w-max btn-info text-slate-950 flex-grow-0.6 md:flex-grow-0 cursor-default'>{v}</span>
+            ))}
           </p>
         </section>
       </div>
