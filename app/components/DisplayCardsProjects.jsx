@@ -1,6 +1,6 @@
 
 import DisplayCardProject from "./DisplayCardProject";
-import edugen from "@/app/assets/EduGen_SignUP.png";
+import edugen from "@/app/assets/images/edugen/EduGen_1_SignUp.jpg";
 
 const cards_data = [
   {
